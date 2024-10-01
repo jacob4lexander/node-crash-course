@@ -1,0 +1,24 @@
+
+
+
+.blogs a:hover h3{
+    color: crimson;
+}
+
+.delete{
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    padding: 8px;
+}
+
+.delete:hover{
+    cursor: pointer;
+    box-shadow: 1px 2px 3px rgba(0,0,0,0.2);
+}
+
+.creat-blog form{
+    max-width: 400px;
+    margin: 0 auto;
+}
